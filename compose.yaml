@@ -4,4 +4,7 @@ services:
     volumes:
       - .:/9cc
     working_dir: /9cc
+    environment:
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
     tty: true
