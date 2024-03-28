@@ -3,6 +3,7 @@ services:
     build: https://www.sigbus.info/compilerbook/Dockerfile
     volumes:
       - .:/9cc
+      - ~/.gitconfig:/etc/gitconfig
     working_dir: /9cc
     environment:
       - LANG=C.UTF-8
